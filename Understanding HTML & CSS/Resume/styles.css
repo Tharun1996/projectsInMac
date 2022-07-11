@@ -1,0 +1,148 @@
+/* Universal selectors
+
+*{
+    font-weight: bold;
+} */
+
+/* Attribute selector, [Attribute = value] */
+/* [lang=es]{
+    font-weight: bold;
+} */
+
+/* ID selector, use pound sign before the id
+#skills{
+    font-weight: bold;
+} */
+
+/* 
+Class selectors
+.resume-list.order-list{
+    font-weight: bold;
+} */
+
+/* Grouping of elements
+ul[lang],ol.resume-lis.order-list,p{
+    font-weight: bold;
+}
+
+p{
+    font-style: italic;
+} */
+
+/* cominator descendants, right to left
+blockquote p{
+    font-weight: bold;
+} */
+
+
+/* Child combinators
+form>p{
+    font-weight: bold;
+} */
+
+/* Next sibling combinator
+h2+blockquote{
+    font-weight: bold;
+
+}
+
+li + li{
+    font-weight: bold;
+} */
+
+/* Subsequent siblings 
+h2 ~ blockquote{
+    font-weight: bold;
+
+} */
+
+/* li:nth-child(even){
+    font-weight: bold;
+} */
+
+/* 
+#aboutme p:nth-of-type(odd){
+    font-weight: bold;
+
+} */
+
+
+/* user action psuedo classes - visited, link
+a:visited{
+    color: greenyellow;
+} */
+
+/* input pesudo classes
+a:hover, a:focus{
+    color: burlywood;
+}
+
+select:hover{
+    outline: 4px solid brown;
+} */
+
+/* negation pseduo class
+section:not(#address){
+    font-style: italic;
+} */
+
+
+/* mark all first letters in a p tag to bold
+p::first-letter{
+    font-weight: bold;
+} */
+
+/* body{
+    font-size: 16px;
+} */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+}
+
+main{
+    max-width: clamp(700px,90%,900px);
+    border-right: solid 2px black;
+    border-left: solid 2px black;
+    margin: 0 auto;
+}
+
+#testimonals blockquote{
+    border: solid 1px black;
+    padding: 0 9.5rem;
+    margin: 0.5rem 0;
+}
+.resume-fieldset{
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.resume-fieldset legend{
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
